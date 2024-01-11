@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+    margin: 0 auto;
+}
+
+.navFather {
+    border: 1px solid #EAECF0;
+}
+
+.test {
+    position: relative;
+    left: -1000px;
+}
