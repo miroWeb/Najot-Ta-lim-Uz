@@ -86,6 +86,8 @@ function Navbar() {
           <h1>salom</h1>
           <h1>salom</h1>
           <h1>salom</h1>
+          <h1>salom</h1>
+          <h1>salom</h1>
         </AccordionDetails>
       </Accordion>
     </div>
