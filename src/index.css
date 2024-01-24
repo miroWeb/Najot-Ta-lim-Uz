@@ -14,3 +14,7 @@
     position: relative;
     left: -1000px;
 }
+
+.acc {
+    border: 1px solid red;
+}

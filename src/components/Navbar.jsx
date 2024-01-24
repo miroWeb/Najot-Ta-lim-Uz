@@ -1,10 +1,8 @@
 import * as React from "react";
 import Accordion from "@mui/material/Accordion";
-// import AccordionActions from "@mui/material/AccordionActions";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-// import Button from "@mui/material/Button";
 
 function Navbar() {
   return (
@@ -69,20 +67,28 @@ function Navbar() {
     //     </svg>
     //   </div>
     // </div>
-    <div>
-      <h1>Najot Ta'lim</h1>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+    <div className="navFather w-full h-[80px] ">
+      <div className="nav flex pt-[20px] px-[53px] max-w-[1444px]">
+      <h1>Hello</h1>
+      <Accordion className="h-0">
+        <AccordionSummary className="bottom-4 right-[800px]"
+          expandIcon={<ExpandMoreIcon/>}
           aria-controls="panel1-content"
           id="panel1-header"
-          className="test"
-        ></AccordionSummary>
-        <AccordionDetails>
+        >
+        </AccordionSummary>
+        <AccordionDetails className="border-[10px] w-[1190px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <h1>salom</h1>
+          <h1>salom</h1>
+          <h1>salom</h1>
+          <h1>salom</h1>
+          <h1>salom</h1>
+          <h1>salom</h1>
         </AccordionDetails>
       </Accordion>
+    </div>
     </div>
   );
 }
